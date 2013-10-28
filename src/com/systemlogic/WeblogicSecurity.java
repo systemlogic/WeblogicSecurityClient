@@ -1,5 +1,5 @@
 
-package com.emc.security;
+package com.systemlogic;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -31,8 +31,8 @@ public interface WeblogicSecurity {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "sayHai", targetNamespace = "http://Security.emc.com/", className = "com.emc.security.SayHai")
-    @ResponseWrapper(localName = "sayHaiResponse", targetNamespace = "http://Security.emc.com/", className = "com.emc.security.SayHaiResponse")
+    @RequestWrapper(localName = "sayHai", targetNamespace = "http://Security.emc.com/", className = "com.systemlogic.SayHai")
+    @ResponseWrapper(localName = "sayHaiResponse", targetNamespace = "http://Security.emc.com/", className = "com.systemlogic.SayHaiResponse")
     public String sayHai(
         @WebParam(name = "arg0", targetNamespace = "")
         String arg0);

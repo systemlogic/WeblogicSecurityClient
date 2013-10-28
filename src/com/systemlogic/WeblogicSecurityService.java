@@ -1,5 +1,5 @@
 
-package com.emc.security;
+package com.systemlogic;
 
 import java.net.MalformedURLException;
 import java.net.URL;

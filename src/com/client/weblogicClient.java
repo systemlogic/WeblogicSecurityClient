@@ -1,7 +1,8 @@
-package com.emc.client;
+package com.client;
 
-import com.emc.security.WeblogicSecurity;
-import com.emc.security.WeblogicSecurityService;
+import com.systemlogic.WeblogicSecurity;
+import com.systemlogic.WeblogicSecurityService;
+
 
 public class weblogicClient {
 	public static void main(String[] args) {
